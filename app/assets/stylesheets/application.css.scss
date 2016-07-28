@@ -14,9 +14,9 @@
  *= require_self
  */
  body{
- 	overflow-x:hidden!important;
+ 	overflow:hidden!important;
  	margin:0 0 0 0;
- 	background-color: #f2f2f2;
+ 	background-color: white;
  	font-family: 'Source Sans Pro', sans-serif;
  }
  section{
@@ -35,7 +35,7 @@
  }
  #titlesec{
  	height:6vh;
- 	padding: 1vh;
+ 	padding: 1.5vh;
  	background-color: #212121;
  	color:white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -43,8 +43,10 @@
 	font-size: 4vh;
  }
   #bodysec{
- 	height:60vh;
- 	padding: 1vh;
+ 	height:64vh;
+ 	padding-left: 2vh;
+ 	padding-right: 2vh;
+
  	background-color: white;
  	color:#212121;
     font-family: 'Source Sans Pro', sans-serif;
@@ -52,7 +54,7 @@
 	font-size: 4vh;
  }
  #footer{
- 	height:10vh;
+ 	height:5vh;
  	background-color: #212121;
  }
 .overlay{
@@ -64,6 +66,36 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+}
+h2{
+		font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px!important;
+	display:none;
+}
+#error_explanation{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px!important;
+	line-height: 16px;
+}
+.dashtext{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 20px!important;
+	line-height: 20px;
+}
+.dashtext1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 18px!important;
+	line-height: 18px;
+}
+.numtext{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 16px!important;
+	line-height: 16px;
 }
 /**DESKTOP**/
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
