@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+ 	overflow-x:hidden!important;
+ 	margin:0 0 0 0;
+ 	background-color: #f2f2f2;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ }
+ section{
+ 	
+ }
+  #landing{
+ 	height:20vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-image: url('/assets/bg2.jpg');
+ }
+ .logo{
+ 	height:18vh;
+ 	margin-top: 1vh;
+ }
+ #titlesec{
+ 	height:6vh;
+ 	padding: 1vh;
+ 	background-color: #212121;
+ 	color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 4vh;
+ }
+  #bodysec{
+ 	height:60vh;
+ 	padding: 1vh;
+ 	background-color: white;
+ 	color:#212121;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 4vh;
+ }
+ #footer{
+ 	height:10vh;
+ 	background-color: #212121;
+ }
+.overlay{
+	height:100%;
+ 	width:100%;
+ 	background-color: rgba(0,0,0,0.5);
+}
+/**DESKTOP**/
+@media (min-width: 44em) and (orientation:landscape) { /* For big*/
+ #landing{
+ 	height:20vh;
+ 	width:100vw;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-image: url('/assets/bg2.jpg');
+ }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ICT Summit 2016</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+</head>
+<body>
+	<section id="landing">
+	<div class="overlay">
+	<center>
+		<%=image_tag ('/assets/ictlogo.png'),:class=>"logo"%>
+		<br>
+	</center>
+	</div>
+	</section>
+
+	<section id="titlesec">
+		<center>
+		ICT SUMMIT 2016
+		</center>
+	</section>
+	<section id="bodysec">
+		<center>
+		GIVEAWAY GO
+		</center>
+		<%= yield %>
+	</section>
+	<section id="footer">
+		<center>
+		
+		</center>
+	</section>
+
+</body>
+</html>
