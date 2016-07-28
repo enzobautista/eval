@@ -27,6 +27,7 @@
  	background-size: cover;
  	background-position: center;
  	background-image: url('/assets/bg2.jpg');
+ 	background-color: black;
  }
  .logo{
  	height:18vh;
@@ -58,6 +59,11 @@
 	height:100%;
  	width:100%;
  	background-color: rgba(0,0,0,0.5);
+}
+.signinfont{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 /**DESKTOP**/
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
